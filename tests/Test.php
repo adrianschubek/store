@@ -93,10 +93,10 @@ class Test extends TestCase
 
         Store::mixin("dd", fn(Store $store) => dd($store->all()));
 
-        $b->map(fn($key, $val) => dump($key, $val));
+//        $b->map(fn($key, $val) => dump($key, $val));
 //        $b->dd();
 
-        $b->
+
 
     }
 
